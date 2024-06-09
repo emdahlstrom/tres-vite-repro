@@ -1,8 +1,9 @@
 # Vite Tres Skybox reproduction
 
-Tested with bun and pnpm.
+Tested with bun 1.1.7 and pnpm 8.15.7/node 20.14.0.
 
-Adding the Sky abstraction and running bun dev results in:
+- Running without the Sky abstraction results in a working scene.
+- Adding the Sky abstraction and running pnpm dev or bun dev results in a error:
 
 ```
 Uncaught (in promise) TypeError: _ is undefined
