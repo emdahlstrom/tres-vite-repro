@@ -6,6 +6,18 @@ Tested with bun 1.1.7 and pnpm 8.15.7/node 20.14.0.
 - Adding the Sky abstraction and running pnpm dev or bun dev results in a error:
 
 ```
+[Vue warn]: Unhandled error during execution of mounted hook
+  at <TresCanvas window-size="" >
+  at <App>
+```
+
+```
+[Vue warn]: Unhandled error during execution of scheduler flush. This is likely a Vue internals bug. Please open an issue at https://github.com/vuejs/core .
+  at <Sky>
+  at <App>
+```
+
+```
 Uncaught (in promise) TypeError: _ is undefined
     v tres.js:1062
     i tres.js:1062
